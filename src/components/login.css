@@ -1,0 +1,8 @@
+input[type="text"],
+input[type="password"],
+textarea {
+  color: white;
+  background: none !important;
+  border-bottom: 1px solid white !important;
+  border-radius: 0px;
+}

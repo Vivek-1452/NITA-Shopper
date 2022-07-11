@@ -1,0 +1,67 @@
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgba(0, 102, 249, 1) !important;
+}
+
+.slick-dots li button:before {
+  color: rgba(0, 102, 249, 1) !important;
+}
+
+.row > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.btn {
+  width: 100%;
+  line-height: 12px;
+  padding: 6px !important;
+}
+
+input[type="number"],
+textarea {
+  width: 25px !important;
+  color: black !important;
+  border: none !important;
+}
+
+input {
+  outline: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btnBook {
+  color: white !important;
+  background-color: rgba(0, 102, 249, 1) !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 5px 30px !important;
+  font-size: 12px !important;
+}
+
+.btnResell {
+  color: white !important;
+  background-color: rgba(0, 102, 249, 1) !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 5px 15px !important;
+  font-size: 10px !important;
+}
+
+.select {
+  height: 30px;
+  border: 1px solid rgba(0, 102, 249, 1) !important;
+  border-radius: 2px;
+  outline: none !important;
+  background-color: none !important;
+}

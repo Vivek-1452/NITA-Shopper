@@ -1,0 +1,36 @@
+.linksAcc {
+  color: white;
+  padding: 0 50px 15px 50px !important;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  width: auto;
+}
+
+.cardBooks {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #999;
+}
+
+.rowBooks {
+  width: 85px;
+  height: 30px;
+  border: 1px solid rgba(0, 102, 249, 1);
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-top: 11px;
+  margin-right: 0px;
+}
+
+.btnBook {
+  color: white !important;
+  background-color: rgba(0, 102, 249, 1) !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 5px 30px !important;
+  font-size: 12px !important;
+}

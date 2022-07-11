@@ -1,0 +1,40 @@
+.carousel-status,
+.thumbs {
+  display: none !important;
+}
+
+.carousel .control-dots .dot.selected {
+  background: rgba(0, 102, 249, 1) !important;
+  width: 15px !important;
+  height: 15px !important;
+  margin-bottom: -3px !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+  margin-right: 10px !important;
+  margin-bottom: 1px !important;
+  border-right: 8px solid rgba(0, 102, 249, 1) !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  margin-left: 10px !important;
+  margin-bottom: 1px !important;
+  border-left: 8px solid rgba(0, 102, 249, 1) !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+  height: 50px !important;
+  width: 50px !important;
+  margin: auto !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(6px);
+  border-radius: 50% !important;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.carousel .slide img {
+  width: 96% !important;
+}

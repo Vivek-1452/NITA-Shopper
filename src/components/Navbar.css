@@ -1,0 +1,90 @@
+.navBar {
+  /* box-shadow: 0px 1px 5px rgb(87, 86, 86); */
+  z-index: 100;
+  opacity: 0.95;
+  position: fixed;
+  top: 0;
+}
+
+.links:hover {
+  color: rgba(0, 102, 249, 1) !important;
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+  margin-right: 20px !important;
+}
+
+.navlinks {
+  background-color: blue;
+}
+
+@media (max-width: 400px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+    height: "auto";
+    background-color: rgba(248, 249, 250, 0.97);
+    text-align: "left";
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+}
+
+.fa-location-arrow {
+  animation: updownarrow 1.5s infinite;
+}
+
+@keyframes updownarrow {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(45deg);
+    transform: rotateY(45deg);
+    transform: rotateX(45deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+input[type="search"],
+textarea {
+  color: white;
+  background: rgba(30, 30, 30, 1) !important;
+  border: none !important;
+  border-radius: 0px;
+}
+
+.sidelinks {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  margin-right: 10px !important;
+  background-color: white !important;
+}
+
+.navbar-brand {
+  margin-right: 0.5rem;
+}

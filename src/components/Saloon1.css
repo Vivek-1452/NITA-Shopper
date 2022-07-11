@@ -1,0 +1,16 @@
+.react-multiple-carousel__arrow {
+  /* background: rgb(0, 104, 249, 0.5) !important; */
+  background: rgb(255, 255, 255, 0.4) !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: rgb(0, 104, 249) !important;
+}
+
+.linksAcc {
+  color: white;
+  padding: 0 50px 15px 50px !important;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  width: 50%;
+}

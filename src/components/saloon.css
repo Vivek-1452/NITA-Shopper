@@ -1,0 +1,7 @@
+.cardSaloon {
+  display: inline-block;
+  width: auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #999;
+}
