@@ -1,0 +1,12 @@
+.carousel-indicators {
+  justify-content: right !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
+}
+
+.carousel-indicators .active {
+  background-color: rgba(0, 102, 249, 1) !important;
+}

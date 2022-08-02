@@ -65,18 +65,21 @@ const Navnew = (props) => {
           color: "white",
           paddingTop: "80px",
           display: display ? "none" : "block",
+          zIndex: "10",
         }}
       >
-        <i
-          className="fa-solid fa-house"
-          style={{
-            fontSize: "20px",
-            padding: "20px 0 0 0",
-            width: "100px",
-            backgroundColor: "rgba(46, 46, 46, 1)",
-          }}
-        ></i>
-        <p style={{ fontSize: "10px", letterSpacing: "0.08em" }}>Home</p>
+        <Link className="sidelinks" to="/">
+          <i
+            className="fa-solid fa-house"
+            style={{
+              fontSize: "20px",
+              padding: "20px 0 0 0",
+              width: "100px",
+              backgroundColor: "rgba(46, 46, 46, 1)",
+            }}
+          ></i>
+          <p style={{ fontSize: "10px", letterSpacing: "0.08em" }}>Home</p>
+        </Link>
         <Link className="sidelinks" to="/Groceries">
           <img
             src={groceries}
@@ -117,12 +120,16 @@ const Navnew = (props) => {
           />
           <p style={{ fontSize: "10px", letterSpacing: "0.08em" }}>Books</p>
         </Link>
-        <img
-          src={hire}
-          alt="Hire Charge"
-          style={{ width: "30px", padding: "10px 0 0 0" }}
-        />
-        <p style={{ fontSize: "10px", letterSpacing: "0.08em" }}>Hire Charge</p>
+        <Link className="sidelinks" to="/HireCharge1">
+          <img
+            src={hire}
+            alt="Hire Charge"
+            style={{ width: "30px", padding: "10px 0 0 0" }}
+          />
+          <p style={{ fontSize: "10px", letterSpacing: "0.08em" }}>
+            Hire Charge
+          </p>
+        </Link>
         <img
           src={resell}
           alt="Resell"

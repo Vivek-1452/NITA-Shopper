@@ -10,6 +10,8 @@ import Saloonslider from "./saloonslider";
 import Fashionslider from "./fashionslider";
 import Hirecharge from "./hirecharge";
 import ResellSlider from "./resellSlider";
+import OfferSlider from "./Offerslider";
+import Footer from "./Footer";
 
 function Home() {
   const [display, setdisplay] = useState(false);
@@ -24,12 +26,14 @@ function Home() {
     <div style={{ backgroundColor: "rgba(24, 24, 24, 1)" }}>
       <Navnew />
       <Homeslider />
+      <OfferSlider />
       {display ? <FoodsliderMob /> : <Foodslider />}
       <Grocslider />
       <Saloonslider />
       <Fashionslider />
       <Hirecharge />
       <ResellSlider />
+      <Footer />
     </div>
   );
 }

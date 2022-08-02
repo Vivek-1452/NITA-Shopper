@@ -66,7 +66,7 @@ const Books = (props) => {
                   color: "white",
                 }}
               >
-                Food
+                Books
               </h1>
               <div className="d-lg-block d-md-block d-none pt-0">
                 <form>
@@ -75,7 +75,7 @@ const Books = (props) => {
                   >
                     <input
                       type="search"
-                      placeholder="Search food"
+                      placeholder="Search Books"
                       style={{
                         borderRadius: "50px 0 0 50px",
                         padding: "0 20px",
@@ -120,16 +120,16 @@ const Books = (props) => {
           }}
         >
           <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
-            <h6 className="linksAcc">Mathematics</h6>
+            <h6 className="linksBook">Mathematics</h6>
           </Link>
           <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
-            <h6 className="linksAcc">Physics</h6>
+            <h6 className="linksBook">Physics</h6>
           </Link>
           <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
-            <h6 className="linksAcc">Electrical</h6>
+            <h6 className="linksBook">Electrical</h6>
           </Link>
           <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
-            <h6 className="linksAcc">Chemistry</h6>
+            <h6 className="linksBook">Chemistry</h6>
           </Link>
         </div>
 
@@ -139,6 +139,7 @@ const Books = (props) => {
               className="text-start ms-5 mt-5 fw-bold"
               style={{
                 color: "white",
+                width: display ? "auto" : "",
               }}
             >
               Mathematics

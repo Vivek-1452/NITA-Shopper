@@ -99,7 +99,7 @@ const Fashion = (props) => {
         <div className="container" style={{ paddingTop: "50px" }}>
           <div className="row" style={{ color: "white", fontWeight: "bold" }}>
             <div className="col-lg-4 col-md-6 my-5">
-              <Link to="/Wear">
+              <Link className="LinkFashion" to="/Wear">
                 <div className="boxes">
                   <img
                     src={hire}

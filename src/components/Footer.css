@@ -1,0 +1,9 @@
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: rgba(0, 102, 249, 1);
+  text-decoration: underline;
+}

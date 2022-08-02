@@ -119,22 +119,70 @@ const FoodList1 = (props) => {
             textAlign: "start",
           }}
         >
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Veg</h6>
           </Link>
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Chicken</h6>
           </Link>
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Mutton</h6>
           </Link>
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Prawns</h6>
           </Link>
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Hyderabadi</h6>
           </Link>
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Mixed</h6>
           </Link>
         </div>

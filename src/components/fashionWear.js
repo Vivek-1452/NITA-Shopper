@@ -122,21 +122,36 @@ const FashionWear = (props) => {
           <Link
             id="profile"
             to=""
-            style={{ textDecoration: "none", paddingBottom: "12px" }}
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              // width: "auto",
+            }}
           >
             <h6 className="linksAcc">Daily Wear</h6>
           </Link>
           <Link
             id="orders"
             to=""
-            style={{ textDecoration: "none", paddingBottom: "12px" }}
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              // width: "auto",
+            }}
           >
             <h6 className="linksAcc">Winter Wear</h6>
           </Link>
           <Link
             id="favourites"
             to=""
-            style={{ textDecoration: "none", paddingBottom: "12px" }}
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              // width: "auto",
+            }}
           >
             <h6 className="linksAcc">Party Wear</h6>
           </Link>

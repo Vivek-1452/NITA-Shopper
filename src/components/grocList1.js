@@ -119,10 +119,26 @@ const GrocList1 = (props) => {
             textAlign: "start",
           }}
         >
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">General</h6>
           </Link>
-          <Link to="" style={{ textDecoration: "none", paddingBottom: "12px" }}>
+          <Link
+            to=""
+            style={{
+              textDecoration: "none",
+              paddingBottom: "5px",
+              display: "inline-block",
+              width: "auto",
+            }}
+          >
             <h6 className="linksAcc">Leafy</h6>
           </Link>
         </div>

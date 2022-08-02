@@ -18,6 +18,8 @@ import FoodList1 from "./components/foodList1";
 import Books from "./components/books";
 import Saloon from "./components/saloon";
 import Saloon1 from "./components/Saloon1";
+import HireCharge1 from "./components/Hclist";
+import Vehicle1 from "./components/HcVehicle1";
 
 function App() {
   const [display, setdisplay] = useState(false);
@@ -71,6 +73,12 @@ function App() {
             </Route>
             <Route path="/Saloon1">
               <Saloon1 />
+            </Route>
+            <Route path="/HireCharge1">
+              <HireCharge1 />
+            </Route>
+            <Route path="/Vehicle1">
+              <Vehicle1 />
             </Route>
           </Switch>
         </ScrollToTop>
